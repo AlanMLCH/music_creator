@@ -1,0 +1,59 @@
+# ---- Python basics
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.cache/
+*.egg-info/
+pip-wheel-metadata/
+
+# ---- Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ---- Logs
+logs/
+*.log
+
+# ---- Project data & artifacts (generated)
+data/**
+!data/.gitkeep
+artifacts/**
+!artifacts/.gitkeep
+index/**
+!index/.gitkeep
+
+# ---- Model files / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.mar
+
+# ---- Audio renders & reports
+artifacts/audio/**
+artifacts/samples/*.wav
+artifacts/samples/*.mp3
+artifacts/samples/summary.csv
+
+# ---- Large downloads / assets
+maestro-midi.zip
+maestro-midi/
+assets/sf2/*.sf2
+
+# ---- Docker
+docker-compose.override.yml
